@@ -1,3 +1,10 @@
+<<<<<<< Updated upstream
+=======
+# Hello-World
+
+
+
+>>>>>>> Stashed changes
 #include <iostream> 
 using namespace std;
 int main(){ 
@@ -12,4 +19,8 @@ int main(){
 
   i got traller
   return 0 ;
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
