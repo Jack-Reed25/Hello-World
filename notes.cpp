@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-=======
-#include <iostream>
-using namespace std;
-
-int main(){
-    string name;
-    cout << "my name is jack." << endl; 
-    cout << "I am from Chino Hills" << endl; 
-    cout << "I am 20 " << name << endl; 
->>>>>>> 30eeb8d3eafcb425f3ccdf6b3974941f30146a04
 
 
 //class notes 
@@ -29,7 +18,6 @@ int main() {
 
     return 0; // return statement - terminates program
 }
-<<<<<<< HEAD
 
 
 
@@ -76,5 +64,3 @@ cout << "no that is a rubbish chouce" << endl;
 
 
 }
-=======
->>>>>>> 30eeb8d3eafcb425f3ccdf6b3974941f30146a04
