@@ -1,6 +1,6 @@
 # Hello-World
 
-
+// class notes
 
 #include <iostream> 
 using namespace std;
@@ -17,3 +17,9 @@ int main(){
   i got traller
   return 0 ;
 }
+
+
+#include <iostream> 
+using namespace std;
+
+int main () {
