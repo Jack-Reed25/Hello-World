@@ -1,32 +1,36 @@
+#include <iostream>
+using namespace std;
 
-
-#include <iostream> 
-int main() {
-
-  string distnce;
-    cout <<"what is the distnce you need to travle in miles?" << endl; 
-    cin >> distance;
-  
-  string consumption;
-    cout <<"what is your fuel economy?" << endl; 
-    cin >> consumption;
-  
-  string priceL;
-    cout <<"how much did you pay per litre for fuel?" << endl; 
-    cin >> priceL;
-
-  
- double conversion = 4.54609;
-  
- double priceM = multiply(conversion,priceL);  //price per gallons
-
- double result1 = divide(distance,consumption); //gallons needed
-
-
-       double result2 = multiply(priceM,result1);
-
-
-   cout << "Your trip cost: " << result2 << endl;
-    return 0;
+double multiply(double a, double b) {
+    return a * b;
 }
 
+double divide(double a, double b) {
+    return a / b;
+}
+
+int main() {
+    double distance;
+    cout << "What is the distance you need to travel in miles? ";
+    cin >> distance;
+
+    double consumption;
+    cout << "What is your fuel economy)? ";
+    cin >> consumption;
+
+    double priceL; 
+    cout << "How much did you pay per litre for fuel? ";
+    cin >> priceL;
+
+    double conversion = 4.54609;
+
+    double priceM = multiply(conversion, priceL);
+  
+    double GNeeded = divide(distance, consumption);
+
+    double cost = multiply(priceM, GNeeded);
+
+    cout << "Your trip cost: $" << cost << endl;
+
+    return 0;
+}
