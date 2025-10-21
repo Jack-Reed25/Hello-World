@@ -1,16 +1,31 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 
- double Age;
-    cout << "What is your Age)? ";
-    cin >> Age;
-
-if (Age > 17) {
-    cout << "You are eligible to vote " ;
+int main(){
+  double time;
+  string response;
+  cout << "how long is your friend going to take? ";
+  cin >> response;
+  time = stod(response);
+  bool big = time > 15;
+  cout << time << big << endl;
+  if (big){
+    double money;
+    cout << "how much money do you have? ";
+    cin >> money;
+      
+    if (money >= 3 ){
+        cout << "Get yourself a coffee" << endl;
+    }
+    else {
+        cout << "Sit on a bench till your friend comes" << endl;
+    }
+  }   
+  else {
+      cout << "wait for your friend" << endl;
   }
-if else 
-  cout << "sorry you are not old enough to vote.";
 
   return 0;
 }
